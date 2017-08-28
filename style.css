@@ -1,0 +1,51 @@
+form {
+    width: 350px;
+}
+
+.w-15 {
+    display: inline;
+    width: 21%;
+    float: left;
+}
+
+.w-85 {
+    display: inline;
+    width: 79%;
+    float: left;
+}
+
+.name {
+    display: inline;
+    width: 35%;
+    float: left;
+}
+
+.input {
+    display: inline;
+    width: 65%;
+    float: left;
+}
+
+.row:before {
+    display: table;
+    content: "";
+}
+
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+@media screen and (max-width: 667px) {
+    .name {
+        display: inline;
+        width: 35%;
+        float: left;
+    }
+    .input {
+        display: inline;
+        width: 65%;
+        float: left;
+    }
+}
